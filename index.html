@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AJAX Flickr Photo Feeder</title>
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script src="js/flickr_public_api.js"> </script> 
+ <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="heading">
+   <h1>Flickr Photo Feeder</h1>
+   <p>Select the Camera Model from the drop down list to view the photos captured by it...</p>
+  </div>
+
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Camera Model
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li> <a href="#"> d7000 </a></li>
+      <li> <a href="#"> d810  </a></li>
+      <li> <a href="#"> X-T1 </a></li>
+      <li> <a href="#"> EOS 7D </a></li>
+      <li> <a href="#"> FZ1000 </a></li>
+      <li> <a href="#"> LX100 </a></li>
+      <li> <a href="#"> OM-D E-M10 </a></li>
+      <li> <a href="#"> D3300 </a></li>
+      <li> <a href="#"> D30 </a></li>
+      <li> <a href="#"> W800 </a></li>
+    </ul>
+  </div>
+        
+  <div id="photos">
+
+  </div>
+
+</body>
+</html>
